@@ -14,9 +14,10 @@ header {
     width: 100%;
 }
 
-#main {
-  
-}
+.container {}
+
+
+
 
 /* Navigation Bar Related Stuff */
 #navbar {
@@ -89,6 +90,169 @@ header {
 }
 /*End of the Navigation Bar Stuff*/
 
+/* Introduction to the project */
+.title {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section_title {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.second_p {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.second_p img {
+    width: 45%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.text2{
+    margin-left: 49%;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+/* First part of the gallery of images */
+.third_p {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third_p img {
+    width: 35%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.third_p_caption {
+    padding-left: 28%;
+    width: 45%;
+    margin-left: 20%;
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text3 {
+    margin-left: 48%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+
+.fourth_p {
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourth_p img {
+    width: 35%;
+    padding-right: 3%;
+    position: relative;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+.fourth_p_caption {
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.text4 {
+    float: left;
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+
+}
+
+
+
+
+.fifth_p img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.fifth_p_caption {
+    width: 45%;
+    margin-left: 20%;
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text5 {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.logos {
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 5% 
+}
+
+.logos img {
+    width: 30%;
+    float: left;
+}
+
+#fsc {
+    padding-right: 
+}
+
+#tiger_face {
+    padding-top: 3%;
+}
+
+#um {
+    padding: 5%;
+}
+
 
 
 /* Link Styling */
@@ -106,33 +270,7 @@ header {
     position: relative;
 }
 
-.logo {
-    position: static;
-    text-align: center;
-    padding-top: 20%;
-    padding-bottom: 0;
-    z-index: 3;
-}
 
-.logo img {
-    width: 15%;
-    height: 15%;
-    z-index: 2;
-}
-
-#logo2 {
-    
-    text-align: center;
-    z-index: 3;
-    width: 20%;
-    padding-right: %;
-    width: 8%;
-   
-}
-
-.logo2 img {
-    z-index: 2;
-}
 
 /* Horizontal Line Stylings */
 hr {
@@ -144,67 +282,12 @@ hr {
     position: relative;
 }
 
-/* SET Z-INDEX BACK TO 0 TO TURN BACK ON */
-#canvas {
-  position: absolute;    
-  text-align: center;
-  margin-top: 60px;
-  width: 98.5%;
-  height:80%;
-  z-index: 0;
-  right: 10px;
-  left: 10px;
-}
+
 
 
 /* These elements are related to the about section */
 
 
-.about {
-    height: 40%;
-    position: relative;
-
-}
-
-.profilepic {
-    z-index: 3;
-    padding-left: 15%;
-}
-
-.profilepic img {
-    margin-top: 2%;
-    height: 15%;
-    width: 15%;
-    float: left;
-    border-radius: 6px;
-}
-
-.name, .university, .resume-about {
-    padding-left: 35%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    position: absolute;
-    padding-top: 5%;
-    text-decoration-color: black;
-    
-}
-
-.name {
-    
-}
-
-.university {
-    margin-top: 30px;
-}
-
-fa-file-text-o {
-    margin: 5px;
-}
-
-.resume-about {
-    margin-top: 80px;
-    z-index: 1;
-}
 
 
 .about {
@@ -215,75 +298,15 @@ fa-file-text-o {
     
 }
 
-.bio {
-    font-family: 'Source Sans Pro', sans-serif;
-    float: right;
-    padding-left: 60%;
-    padding-right: 15%;
-    margin-top: -13%;
-    position: relative;
-}
 
-.portfolio  {
-    padding-top: 3%;
-    height: 70%;
-}
+/* image animation hover effect */
 
 
-#fa fa-file-text-o {
-    line-height: 5px;
-}
-
-
-
-
-/* Grid Gallery */
-
-
-.contact-wrapper {
-    height: 40%;
-    position: relative;
-
-}
-
-.email-contact, .resume-contact, .facebook-contact, .twitter-contact, .linkedin-contact {
-    float: left; 
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.email-contact {
-   
-}
-
-.resume-contact {
-
-}
-
-.facebook-contact {
-
-}
-
-.twitter-contact {
-
-}
-.
-linkedin-contact {
-       
-}
-
-/* Social Media Buttons */
-
-*:focus {
-  outline: none;
-}
 
 
 
 .social-buttons {
-
+  padding-top: 7%;
   height: 120px;
   margin: auto;
   font-size: 0;

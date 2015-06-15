@@ -17,14 +17,14 @@
 }
 
 .grid-gallery figure {
-    border-radius: 12px;
+    border-radius: 6px;
 	margin: 0;
 }
 
 .grid-gallery figure img {
 	display: block;
 	width: 100%;
-    border-radius: 12px;
+    border-radius: 6px;
 
 }
 
@@ -69,7 +69,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 	background: #D5D5D6;
 	padding: 25px;
-    border-radius: 12px;
+    border-radius: 6px;
 
 }
 
@@ -127,7 +127,7 @@
 	left: 50%;
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 .slideshow li.show {
@@ -251,7 +251,7 @@ span.nav-close:before {
 	border: 1px solid #fff;
 	text-align: center;
 	line-height: 14px;
-	font-size: 12px;
+	font-size: 6px;
 }
 
 .info-keys:before {
