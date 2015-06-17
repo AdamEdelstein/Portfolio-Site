@@ -142,6 +142,7 @@ header {
 
 /* First part of the gallery of images */
 .third_p {
+    margin-top: 4%;
     position: relative;
     width: 70%;
     margin-left: auto;
@@ -156,6 +157,7 @@ header {
 }
 
 .third_p_caption {
+    position: relative;
     padding-left: 28%;
     width: 45%;
     margin-left: 20%;
@@ -164,6 +166,7 @@ header {
 }
 
 .text3 {
+    position: relative;
     margin-left: 48%;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
@@ -171,6 +174,7 @@ header {
 
 
 .fourth_p {
+    margin-top: 4%;
     padding-top: 2%;
     position: relative;
     width: 70%;
@@ -188,31 +192,39 @@ header {
 }
 
 .fourth_p_caption {
+    position: relative;
     width: 45%;
     font-family: 'Roboto', sans-serif;
     float: left;
 }
 
 .text4 {
+    position: relative;
     float: left;
     width: 45%;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-
 }
 
 
-
+.fifth_p {
+    margin-top: 4%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .fifth_p img {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 3%;
+    width: 35%;
+    position: relative;
+    float: left;
     border-radius: 5px;
 }
 
 .fifth_p_caption {
+    position: relative;
+    padding-left: 28%;
     width: 45%;
     margin-left: 20%;
     margin-right: 15%;
@@ -220,13 +232,47 @@ header {
 }
 
 .text5 {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    position: relative;
+    margin-left: 48%;
     font-family: 'Source Sans Pro', sans-serif;
-    font-style: italic;
     font-size: 14px;
 }
+
+
+.sixth_p {
+        margin-top: 4%;
+
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sixth_p img {
+    width: 35%;
+    padding-right: 3%;
+    position: relative;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+.sixth_p_caption {
+    position: relative;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.text6 {
+    position: relative;
+    float: left;
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
 
 .logos {
     padding-top: 5%;
@@ -274,20 +320,19 @@ header {
 
 /* Horizontal Line Stylings */
 hr {
+    position: relative;
     border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    width: 80%;
-    position: relative;
+    width: 70%;
+    margin-top: 20%; 
 }
 
 
 
 
 /* These elements are related to the about section */
-
-
 
 
 .about {
@@ -426,6 +471,10 @@ hr {
     top: -15%;
     left: -15%;
   }
+    
+    img {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 520px) {
