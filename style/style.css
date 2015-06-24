@@ -144,17 +144,6 @@ hr {
     position: relative;
 }
 
-/* SET Z-INDEX BACK TO 0 TO TURN BACK ON */
-#canvas {
-  position: absolute;    
-  text-align: center;
-  margin-top: 60px;
-  width: 98.5%;
-  height:80%;
-  z-index: 0;
-  right: 10px;
-  left: 10px;
-}
 
 
 /* These elements are related to the about section */
@@ -378,6 +367,13 @@ linkedin-contact {
 .social-button:focus {
   opacity: .85;
 }
+
+
+/*Hover Effect*/
+
+
+
+
 
 @media screen and (max-width: 900px) {
   .social-button {

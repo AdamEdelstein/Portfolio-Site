@@ -1,0 +1,494 @@
+html {
+  background: url("../img/blue-linen-paper(ligher).png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+/*    background-color: #FDFEFF;*/
+}
+
+header {
+    width: 100%;
+}
+
+.container {}
+
+
+
+
+/* Navigation Bar Related Stuff */
+#navbar {
+    z-index: 3;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #AAAAAB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    border-radius: 6px;
+}
+
+
+#navbar li {
+    border-radius: 6px;
+    position: relative;
+    float: right;
+    line-height: 40px;
+    background: inherit;
+    text-align: center;
+    transition: all .2s;
+}
+
+#navbar li a {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+    line-height: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background: #AAAAAB;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    transition: all 0, background .2s;
+}
+#navbar li:hover:before {
+    margin-top: 1px;
+    border-radius: 50% 50% 0 50%;
+    transition: all .1s, background .2s, margin-top .2s cubic-bezier(.5,30,.2,0);
+}
+#navbar li:hover,
+#navbar li:hover:before {
+    background: #D5D5D6;
+}
+#navbar li.active,
+#navbar li.active:before {
+    background: #8DAFCC;
+}
+
+#navbar.hidden {
+    transform: translate3d(0,-150%,0);
+}
+/*End of the Navigation Bar Stuff*/
+
+/* Introduction to the project */
+.title {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section_title {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.second_p {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+iframe {
+    width: 45%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.second_p img {
+    width: 45%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.text2{
+    margin-left: 49%;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+/* First part of the gallery of images */
+.third_p {
+    margin-top: 4%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third_p img {
+    width: 49%;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#img3 {
+    width: 49%;
+}
+
+.third_p_caption {
+    position: relative;
+    padding-left: 28%;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text3 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+
+.fourth_p {
+    margin-top: 4%;
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourth_p img {
+    width: 35%;
+    padding-right: 3%;
+    position: relative;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+.fourth_p_caption {
+    position: relative;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.text4 {
+    position: relative;
+    float: left;
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+
+.fifth_p {
+    margin-top: 4%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fifth_p img {
+    width: 35%;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.fifth_p_caption {
+    position: relative;
+    padding-left: 28%;
+    width: 45%;
+    margin-left: 20%;
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text5 {
+    position: relative;
+    margin-left: 48%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+
+.sixth_p {
+        margin-top: 4%;
+
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sixth_p img {
+    width: 35%;
+    padding-right: 3%;
+    position: relative;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+.sixth_p_caption {
+    position: relative;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.text6 {
+    position: relative;
+    float: left;
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* Link Styling */
+.a {
+    text-decoration: none;
+}
+
+.a:link, a:visited {
+    color: black;
+}
+
+
+.intro {
+    height: 100%;
+    position: relative;
+}
+
+
+
+/* Horizontal Line Stylings */
+hr {
+    position: relative;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 70%;
+    margin-top: 20%; 
+}
+
+
+
+
+/* These elements are related to the about section */
+
+
+.about {
+  padding-top: 4%;
+  margin-bottom: 2%;
+  text-decoration-color: black;
+  position: relative;
+    
+}
+
+
+/* image animation hover effect */
+
+
+
+
+
+.social-buttons {
+  padding-top: 7%;
+  height: 120px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.social-button {
+  display: inline-block;
+  background-color: #E9EAEB;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  margin: 0 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  opacity: .99;
+  border-radius: 28%;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-button:before {
+  content: '';
+  background-color: #000;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  top: 90%;
+  left: -110%;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-button .fa {
+  font-size: 60px;
+  vertical-align: middle;
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-button.facebook:before {
+  background-color: #3B5998;
+}
+.social-button.facebook .fa {
+  color: #3B5998;
+}
+.social-button.twitter:before {
+  background-color: #3CF;
+}
+.social-button.twitter .fa {
+  color: #3CF;
+}
+.social-button.google:before {
+  background-color: #DC4A38;
+}
+.social-button.google .fa {
+  color: #DC4A38;
+}
+.social-button.linkedin:before {
+  background-color: #4875B4;
+}
+.social-button.linkedin .fa {
+  color: #4875B4;
+}
+.social-button.skype:before {
+  background-color: #00AFF0;
+}
+.social-button.skype .fa {
+  color: #00AFF0;
+}
+.social-button:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-button:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+.social-button:focus {
+  opacity: .85;
+}
+
+@media screen and (max-width: 900px) {
+  .social-button {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 5px;
+    border-radius: 20%;
+  }
+  .social-button:before {
+    width: 130%;
+    height: 130%;
+    top: 95%;
+    left: -115%;
+  }
+  .social-button .fa {
+    font-size: 40px;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+  .social-button:hover:before {
+    top: -15%;
+    left: -15%;
+  }
+    
+    img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+  .social-button {
+
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 px;
+    border-radius: 20%;
+  }
+  .social-button:before {
+    width: 130%;
+    height: 130%;
+    top: 95%;
+    left: -115%;
+  }
+  .social-button .fa {
+    font-size: 25px;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+  .social-button:hover:before {
+    top: -15%;
+    left: -15%;
+  }
+}

@@ -126,3 +126,5 @@ $("#projects").justifiedGallery({
     lastRow : 'nojustify',
     margins : 3
 });
+
+
