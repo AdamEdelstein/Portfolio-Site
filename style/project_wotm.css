@@ -162,9 +162,7 @@ iframe {
     text-align: center;
 }
 
-#img3 {
-    width: 49%;
-}
+
 
 .third_p_caption {
     position: relative;
@@ -186,7 +184,7 @@ iframe {
 
 
 .fourth_p {
-    margin-top: 4%;
+    margin-top: 2%;
     padding-top: 2%;
     position: relative;
     width: 70%;
@@ -195,12 +193,21 @@ iframe {
 }
 
 .fourth_p img {
-    width: 35%;
-    padding-right: 3%;
+    margin-top: 7%;
+    width: 15%;
     position: relative;
     border-radius: 5px;
     float: right;
-    
+    display: block;
+    padding: 1%
+}
+
+#techlogo2 {
+    margin-top: 8%;
+}
+
+#techlogo1 {
+    margin-top: 13%;
 }
 
 .fourth_p_caption {
@@ -228,7 +235,7 @@ iframe {
 }
 
 .fifth_p img {
-    width: 35%;
+    width: 30%;
     position: relative;
     float: left;
     border-radius: 5px;
@@ -252,8 +259,7 @@ iframe {
 
 
 .sixth_p {
-        margin-top: 4%;
-
+    margin-top: 2%;
     padding-top: 2%;
     position: relative;
     width: 70%;
@@ -261,14 +267,7 @@ iframe {
     margin-right: auto;
 }
 
-.sixth_p img {
-    width: 35%;
-    padding-right: 3%;
-    position: relative;
-    border-radius: 5px;
-    float: right;
-    
-}
+
 
 .sixth_p_caption {
     position: relative;
@@ -285,10 +284,89 @@ iframe {
     font-size: 14px;
 }
 
+.sixth_p iframe {
+    width: 45%;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    margin-top: 8%
+}
 
 
 
+.seventh_p {
+    margin-top: 2%;
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.seventh_p_caption {
+    position: relative;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.text7 {
+    position: relative;
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+.seventh_p img {
+    text-align: center;
+    margin-left: auto;
+    width: 230%;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+
+
+
+.eighth_p {
+    margin-top: 2%;
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eighth_p_caption {
+    position: relative;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.text8 {
+    position: relative;
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+.eighth_p img {
+    text-align: center;
+    margin-left: auto;
+    width: 230%;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+
+
+.closing {
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    padding-top: 5%;
+}
 
 /* Link Styling */
 .a {
