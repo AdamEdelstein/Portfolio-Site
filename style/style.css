@@ -91,6 +91,15 @@ header {
 
 
 
+/*Particle Stuff*/
+#particles-js {
+    position: relative;
+    display: block;
+    padding-top: 4%;
+}
+
+
+
 /* Link Styling */
 .a {
     text-decoration: none;
@@ -101,15 +110,17 @@ header {
 }
 
 
+
+/*First part of the page*/
 .intro {
     height: 100%;
     position: relative;
+    margin-top: -30%
 }
 
+/*My Initials in Main Logo*/
 .logo {
-    position: static;
     text-align: center;
-    padding-top: 20%;
     padding-bottom: 0;
     z-index: 3;
 }
@@ -120,13 +131,14 @@ header {
     z-index: 2;
 }
 
+/*I make cool stuff*/
 #logo2 {
     
     text-align: center;
     z-index: 3;
     width: 20%;
     padding-right: %;
-    width: 8%;
+    width: 10%;
    
 }
 
@@ -286,7 +298,7 @@ linkedin-contact {
 
 .social-button {
   display: inline-block;
-  background-color: #E9EAEB;
+  background-color: #D5D5D6;
   width: 120px;
   height: 120px;
   line-height: 120px;
